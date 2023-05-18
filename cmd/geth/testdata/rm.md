@@ -20,6 +20,8 @@ admin.addPeer("enode://...")
 
 "enode://7efcbba8460fdb84b1d3f148bd67d78ab5e0471f0e12d4eb572f211a0c21007eeb99ebdbb29644807c359cb999d219403d19df1c4531bb6899941d079b10c033@51.161.131.90:60606"
 
+admin.peers <<< to show peers list
+
 
 
 
