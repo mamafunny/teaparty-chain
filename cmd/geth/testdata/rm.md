@@ -1,10 +1,10 @@
-geth init --datadir ./party testdata/genesis.json 
+ grams-geth --datadir ./party testdata/genesis.json 
 
-./geth account new
+./grams-geth--datadir /home/panda/.grams account new
 
 0x34A5A39ed28A9905310165F08464ef3AD0b970dc
 
-./grams-geth --datadir /home/panda/.grams --networkid 1773 --port 30308 --http --http.port 9718 --authrpc.port 8668 --http.api personal,eth,net,web3,admin,txpool,debug --cache=8000 --maxpeers 100 --syncmode full --miner.etherbase 0x34A5A39ed28A9905310165F08464ef3AD0b970dc --unlock 0x34A5A39ed28A9905310165F08464ef3AD0b970dc --password /home/panda/.elh/.elh-pw --nat any --allow-insecure-unlock --nodiscover --snapshot=false
+./grams-geth --datadir /home/panda/.grams --networkid 1773 --port 30308 --http --http.port 9718 --authrpc.port 8668 --http.api personal,eth,net,web3,admin,txpool,debug --cache=8000 --maxpeers 100 --syncmode full  --password /home/panda/.elh/.elh-pw --nat any --allow-insecure-unlock --nodiscover --snapshot=false --mine --miner.etherbase 0x34A5A39ed28A9905310165F08464ef3AD0b970dc --unlock 0x34A5A39ed28A9905310165F08464ef3AD0b970dc
 
 ./gram-geth attach /path/to/data/dir/geth.ipc
 
